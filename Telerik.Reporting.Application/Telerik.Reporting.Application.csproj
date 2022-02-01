@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telerik.Documents.Core" Version="2020.2.504" />
+    <PackageReference Include="Telerik.Documents.Fixed" Version="2020.2.504" />
+    <PackageReference Include="Telerik.Documents.Flow" Version="2020.2.504" />
+    <PackageReference Include="Telerik.Documents.Flow.FormatProviders.Pdf" Version="2020.2.504" />
+    <PackageReference Include="Telerik.UI.for.AspNet.Core" Version="2020.1.406" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Kendo.Mvc">
+      <HintPath>..\..\..\..\.nuget\packages\telerik.ui.for.aspnet.core\2020.1.406\lib\netcoreapp3.1\Kendo.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
